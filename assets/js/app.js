@@ -1,6 +1,7 @@
 import { createBracket } from '/assets/js/bracketry.js'
 
-
+const ryen_color = "#59C3C3"
+const ceruti_color = "#E1CE7A"
 const wrapper = document.querySelector('#russillo-bracket')
 const options = {
   // getRoundTitleElement: (roundData, roundIndex) => { /* ...return an Element for round title */ },
@@ -12,9 +13,11 @@ const options = {
   getPlayerTitleHTML: (player, context) => {
     var bg_color = "transparent"
     if (player.governor == 'r') {
-      bg_color = "#59C3C3"
+      // Blue
+      bg_color = ryen_color
     } else if (player.governor == 'c') {
-      bg_color = "#E1CE7A"
+      // Yellow
+      bg_color = ceruti_color
     }
     return `<div style="background-color: ${bg_color}; padding: 0.5em;">${player.title}</div>`
   },
@@ -41,6 +44,8 @@ const data = {
       {
         roundIndex: 0,
         order: 0,
+        matchStatus: "0 pts",
+        matchWinner: "c",
         sides: [
           {
             contestantId: "1610612758",
@@ -65,6 +70,8 @@ const data = {
       {
         roundIndex: 0,
         order: 16,
+        matchStatus: "0 pts",
+        matchWinner: "c",
         sides: [
           {
             contestantId: "1610612741",
@@ -102,6 +109,8 @@ const data = {
       {
         roundIndex: 1,
         order: 7,
+        matchStatus: "0 pts",
+        matchWinner: "r",
         sides: [
           {
             contestantId: "1610612740",
@@ -137,6 +146,8 @@ const data = {
       {
         roundIndex: 1,
         order: 15,
+        matchStatus: "0 pts",
+        matchWinner: "r",
         sides: [
           {
             contestantId: "1610612755",
