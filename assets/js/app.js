@@ -1,4 +1,4 @@
-import { createBracket } from '/node_modules/bracketry/dist/esm/index.js'
+import { createBracket } from '/assets/js/bracketry.js'
 
 
 const wrapper = document.querySelector('#russillo-bracket')
