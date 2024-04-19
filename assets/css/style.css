@@ -9,11 +9,11 @@ font-family: 'Poppins', sans-serif;
 ==================================== */
 
 /*==================================
-pop color: #F87666
+pop color      : #F87666
 Ryen color     : #59C3C3
 Ceruti color   : #E1CE7A
-cta color : #2C6E49
-            #23583A
+cta color      : #2C6E49
+                 #23583A
 https: //coolors.co/f8f1ff-f87666-e1ce7a-2c6e49-59c3c3
 ==================================== */
 
@@ -25,7 +25,7 @@ https: //coolors.co/f8f1ff-f87666-e1ce7a-2c6e49-59c3c3
 4.  About me
 5.  summary
 6.  Skill
-7.  Experience
+7.  timeline
 8.  Profiles
 9.  Portfolio
 10. Clients
@@ -255,7 +255,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F87666;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -350,8 +353,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F87666;}
 /*.summary-horizontal-timeline*/
 .summary-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
+.single-horizontal-timeline .timeline-time h3{text-transform: capitalize;}
+.single-horizontal-timeline .timeline-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
@@ -447,30 +450,30 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*-------------------------------------
-        7. Experience
+        7. timeline
 -------------------------------------*/
-.experience {
+.timeline {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
-.experience-content {padding-top: 100px;}
+/* .timeline-content {padding-top: 100px;} */
 .single-timeline-box {margin-bottom: 75px;}
 
-/*experience-time*/
-.experience-time {
+/*timeline-time*/
+.timeline-time {
     position: relative;
 }
-.experience-time h2 {
+.timeline-time h2 {
     font-weight: 400;
 }
-.experience-time h3 {
+.timeline-time h3 {
     font-size: 16px;
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
     text-transform: uppercase;
 }
-/*experience-time*/
+/*timeline-time*/
 
 /*main-timeline*/
 .main-timeline{
@@ -490,7 +493,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position: relative;
 }
 
-.timeline-content span>i, .experience-time span>i {
+.timeline-content span>i, .timeline-time span>i {
     color: #F87666;
     position: absolute;
     font-size: 10px;
@@ -526,13 +529,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-left:15px solid #fff;
 }
 
-.experience-time-responsive{display: none;}
+.timeline-time-responsive{display: none;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background: #f9fbfd;
 }
 
 .profiles-content {padding-top: 100px;}
@@ -555,6 +559,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -ms-transition:background 0.5s linear;
     -o-transition:background 0.5s linear;
     transition:background 0.5s linear;
+}
+.single-profile i {
+    font-size: 2em;
 }
 .profile-icon-name {
     text-transform: capitalize;
@@ -601,6 +608,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     top:0;
 }
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
+.single-profile:hover i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
 /*-------------------------------------
         9. Portfolio

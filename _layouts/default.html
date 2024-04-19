@@ -2,6 +2,16 @@
 <html class="no-js" lang="{{ site.lang | default: " en-US" }}">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6HZKFLT4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H6HZKFLT4F');
+  </script>
+
   <!-- meta data -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +25,6 @@
 
   <!-- title of site -->
   <title>{{ page.title }} | {{ site.title }}</title>
-
 
 
   <!-- For favicon png -->
@@ -82,13 +91,11 @@
           <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
               <li class=" smooth-menu active"></li>
-              <li class="smooth-menu"><a href="#skills">skills</a></li>
-              <li class=" smooth-menu"><a href="#education">education</a></li>
-              <li class="smooth-menu"><a href="#experience">experience</a></li>
-              <!-- <li class="smooth-menu"><a href="#profiles">profile</a></li> -->
-              <!-- <li class="smooth-menu"><a href="#portfolio">portfolio</a></li> -->
-              <!-- <li class="smooth-menu"><a href="#clients">clients</a></li> -->
-              <li class="smooth-menu"><a href="#contact">contact</a></li>
+              <li class="smooth-menu"><a href="#summary">summary</a></li>
+              <li class=" smooth-menu"><a href="#bracket">bracket</a></li>
+              <li class="smooth-menu"><a href="#why">why?</a></li>
+              <li class="smooth-menu"><a href="#timeline">timeline</a></li>
+              <li class="smooth-menu"><a href="#profiles">contact</a></li>
             </ul><!--/.nav -->
           </div><!-- /.navbar-collapse -->
         </div><!--/.container-->
@@ -108,8 +115,12 @@
     <div class="container">
       <div class="hm-footer-copyright text-center">
         <p>
-          &copy; copyright Jeff Miller. design by <a href="https://www.themesine.com/">themesine</a>
+          &copy; 2024 Jeff Miller. All Rights Reserved. | design by <a href="https://www.themesine.com/" target="_blank">themesine</a>
         </p><!--/p-->
+        <p>
+          <em><strong>Disclaimer:</strong> This website is not affiliated with, endorsed by, or sponsored by The Ringer or its parent company. All
+          views and opinions expressed here are solely those of the website owner and do not reflect the official policy or position of The Ringer.</em>
+        </p>
       </div><!--/.text-center-->
     </div><!--/.container-->
 
