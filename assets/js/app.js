@@ -10,7 +10,6 @@ const options = {
     return `<img style="width: 40px;" src="https://cdn.nba.com/logos/nba/${context.contestantId}/primary/L/logo.svg">`
   },
   getPlayerTitleHTML: (player, context) => {
-    console.log(context.isWinner)
     var bg_color = "transparent"
     if (player.governor == 'r') {
       bg_color = "#59C3C3"
@@ -265,23 +264,63 @@ const data = {
       }
     ],
     contestants: {
-      1610612758: {
-        entryStatus: "9",
+      1610612760: {
+        entryStatus: "1",
         players: [
           {
-            title: "Kings",
-            nationality: "SAC",
+            title: "Thunder",
+            nationality: "OKC",
             governor: 'r'
           }
         ]
       },
-      1610612744: {
-        entryStatus: "10",
+      1610612743: {
+        entryStatus: "2",
         players: [
           {
-            title: "Warriors",
-            nationality: "GS",
+            title: "Nuggets",
+            nationality: "DEN",
             governor: 'c'
+          }
+        ]
+      },
+      1610612750: {
+        entryStatus: "3",
+        players: [
+          {
+            title: "Timberwolves",
+            nationality: "MIN",
+            governor: 'r'
+          }
+        ]
+      },
+      1610612746: {
+        entryStatus: "4",
+        players: [
+          {
+            title: "Clippers",
+            nationality: "LA",
+            governor: 'c'
+          }
+        ]
+      },
+      1610612742: {
+        entryStatus: "5",
+        players: [
+          {
+            title: "Mavericks",
+            nationality: "DAL",
+            governor: 'c'
+          }
+        ]
+      },
+      1610612756: {
+        entryStatus: "6",
+        players: [
+          {
+            title: "Suns",
+            nationality: "PHX",
+            governor: 'r'
           }
         ]
       },
@@ -305,62 +344,22 @@ const data = {
           }
         ]
       },
-      1610612760: {
-        entryStatus: "1",
+      1610612758: {
+        entryStatus: "9",
         players: [
           {
-            title: "Thunder",
-            nationality: "OKC",
-            governor: 'r'
+            title: "Kings",
+            nationality: "SAC",
+            governor: 'c'
           }
         ]
       },
-      1610612746: {
-        entryStatus: "4",
+      1610612744: {
+        entryStatus: "10",
         players: [
           {
-            title: "Clippers",
-            nationality: "LA",
-            governor: 'r'
-          }
-        ]
-      },
-      1610612742: {
-        entryStatus: "5",
-        players: [
-          {
-            title: "Mavericks",
-            nationality: "DAL",
-            governor: 'r'
-          }
-        ]
-      },
-      1610612750: {
-        entryStatus: "3",
-        players: [
-          {
-            title: "Timberwolves",
-            nationality: "MIN",
-            governor: 'r'
-          }
-        ]
-      },
-      1610612756: {
-        entryStatus: "6",
-        players: [
-          {
-            title: "Suns",
-            nationality: "PHX",
-            governor: 'r'
-          }
-        ]
-      },
-      1610612743: {
-        entryStatus: "2",
-        players: [
-          {
-            title: "Nuggets",
-            nationality: "DEN",
+            title: "Warriors",
+            nationality: "GS",
             governor: 'r'
           }
         ]
@@ -401,7 +400,7 @@ const data = {
           {
             title: "Cavaliers",
             nationality: "CLE",
-            governor: 'c'
+            governor: 'r'
           }
         ]
       },
@@ -431,7 +430,7 @@ const data = {
           {
             title: "76ers",
             nationality: "PHI",
-            governor: 'c'
+            governor: 'r'
           }
         ]
       },
@@ -461,7 +460,7 @@ const data = {
           {
             title: "Hawks",
             nationality: "ATL",
-            governor: 'c'
+            governor: 'r'
           }
         ]
       }
@@ -479,7 +478,7 @@ const adjust = () => {
     bracket.applyNewOptions(some_default_options)
   }
 }
-bracket.setBaseRoundIndex(1)
+bracket.setBaseRoundIndex(2)
 mediaQuery.addEventListener('change', adjust)
 
 adjust()
