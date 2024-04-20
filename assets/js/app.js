@@ -96,12 +96,25 @@ const data = {
       {
         roundIndex: 1,
         order: 0,
+        matchStatus: "0 pts",
+        matchWinner: "r",
         sides: [
           {
-            contestantId: "1610612758"
+            contestantId: "1610612758",
+            scores: [
+              {
+                mainScore: "98"
+              }
+            ]
           },
           {
-            contestantId: "1610612740"
+            contestantId: "1610612740",
+            scores: [
+              {
+                mainScore: "105"
+              }
+            ],
+            isWinner: true
           },
 
         ]
@@ -134,12 +147,25 @@ const data = {
       {
         roundIndex: 1,
         order: 8,
+        matchStatus: "0 pts",
+        matchWinner: "c",
         sides: [
           {
-            contestantId: "1610612741"
+            contestantId: "1610612741",
+            scores: [
+              {
+                mainScore: "191"
+              }
+            ]
           },
           {
-            contestantId: "1610612748"
+            contestantId: "1610612748",
+            scores: [
+              {
+                mainScore: "112"
+              }
+            ],
+            isWinner: true
           },
         ]
       },
@@ -177,7 +203,7 @@ const data = {
             contestantId: "1610612760"
           },
           {
-            title: ""
+            contestantId: "1610612740"
           },
 
         ]
@@ -229,7 +255,7 @@ const data = {
             contestantId: "1610612738"
           },
           {
-            title: ""
+            contestantId: "1610612748"
           },
 
         ]
