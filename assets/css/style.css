@@ -414,7 +414,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-radius:3px;
     overflow: visible;
     background: #e6ecf3;
-    height:8px;
+    height:20px;
     margin-top: 15px;
     width: 85%;
     margin-bottom: 37px;
@@ -888,4 +888,18 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .ceruti-bg {
     background-color: #E1CE7A !important;
+}
+
+.points-earned {
+    background-color: #F87666;
+}
+
+.points-unavailable {
+    background-color: #3b3b3b;
+}
+
+.match-bottom div {
+    border: 0.5px dotted #ccc;
+    color: #2c2c2c;
+    padding: 0.5em;
 }
