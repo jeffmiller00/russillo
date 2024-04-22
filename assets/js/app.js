@@ -200,10 +200,23 @@ const data = {
         order: 0,
         sides: [
           {
-            contestantId: "1610612760"
+            // OKC Thunder
+            contestantId: "1610612760",
+            scores: [
+              {
+                mainScore: "94",
+                isWinner: true
+              }
+            ]
           },
           {
-            contestantId: "1610612740"
+            // Pelicans
+            contestantId: "1610612740",
+            scores: [
+              {
+                mainScore: "92"
+              }
+            ]
           },
 
         ]
@@ -213,10 +226,23 @@ const data = {
         order: 1,
         sides: [
           {
-            contestantId: "1610612746"
+            // Clippers
+            contestantId: "1610612746",
+            scores: [
+              {
+                mainScore: "109",
+                isWinner: true
+              }
+            ]
           },
           {
-            contestantId: "1610612742"
+            // Mavericks
+            contestantId: "1610612742",
+            scores: [
+              {
+                mainScore: "97"
+              }
+            ]
           },
 
         ]
@@ -226,10 +252,23 @@ const data = {
         order: 2,
         sides: [
           {
-            contestantId: "1610612750"
+            // Timberwolves
+            contestantId: "1610612750",
+            scores: [
+              {
+                mainScore: "120",
+                isWinner: true
+              }
+            ]
           },
           {
-            contestantId: "1610612756"
+            // Suns
+            contestantId: "1610612756",
+            scores: [
+              {
+                mainScore: "95"
+              }
+            ]
           },
 
         ]
@@ -239,10 +278,23 @@ const data = {
         order: 3,
         sides: [
           {
-            contestantId: "1610612743"
+            // Nuggets
+            contestantId: "1610612743",
+            scores: [
+              {
+                mainScore: "114",
+                isWinner: true
+              }
+            ]
           },
           {
-            contestantId: "1610612747"
+            // Lakers
+            contestantId: "1610612747",
+            scores: [
+              {
+                mainScore: "103"
+              }
+            ]
           },
 
         ]
@@ -252,10 +304,23 @@ const data = {
         order: 4,
         sides: [
           {
-            contestantId: "1610612738"
+            // Celtics
+            contestantId: "1610612738",
+            scores: [
+              {
+                mainScore: "114",
+                isWinner: true
+              },
+            ]
           },
           {
-            contestantId: "1610612748"
+            // Heat
+            contestantId: "1610612748",
+            scores: [
+              {
+                mainScore: "94"
+              }
+            ]
           },
 
         ]
@@ -265,10 +330,23 @@ const data = {
         order: 5,
         sides: [
           {
-            contestantId: "1610612739"
+            // Cavs
+            contestantId: "1610612739",
+            scores: [
+              {
+                mainScore: "97",
+                isWinner: true
+              },
+            ]
           },
           {
-            contestantId: "1610612753"
+            // Magic
+            contestantId: "1610612753",
+            scores: [
+              {
+                mainScore: "83"
+              }
+            ]
           },
 
         ]
@@ -278,10 +356,23 @@ const data = {
         order: 6,
         sides: [
           {
-            contestantId: "1610612749"
+            // Bucks
+            contestantId: "1610612749",
+            scores: [
+              {
+                mainScore: "109",
+                isWinner: true
+              }
+            ]
           },
           {
-            contestantId: "1610612754"
+            // Pacers
+            contestantId: "1610612754",
+            scores: [
+              {
+                mainScore: "94"
+              }
+            ]
           },
 
         ]
@@ -291,10 +382,23 @@ const data = {
         order: 7,
         sides: [
           {
-            contestantId: "1610612752"
+            // Knicks
+            contestantId: "1610612752",
+            scores: [
+              {
+                mainScore: "111",
+                isWinner: true
+              },
+            ]
           },
           {
-            contestantId: "1610612755"
+            // 76ers
+            contestantId: "1610612755",
+            scores: [
+              {
+                mainScore: "104"
+              }
+            ]
           },
 
         ]

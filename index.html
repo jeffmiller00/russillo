@@ -339,4 +339,6 @@ title: "Russillo & Ceruti NBA Playoff Draft Tracker"
 </section><!--/.profiles-->
 <!--profiles end -->
 
-<script type="module" src="{{'/assets/js/app.js' | prepend: site.baseurl}}"></script>
+{% assign timestamp = site.time | date:'%s' %}
+{% assign versioned_filename = '/assets/js/app.js?v=' | append: timestamp %}
+<script type="module" src="{{versioned_filename | prepend: site.baseurl}}"></script>
