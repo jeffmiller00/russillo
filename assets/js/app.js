@@ -284,6 +284,10 @@ const data = {
               {
                 mainScore: "114",
                 isWinner: true
+              },
+              {
+                mainScore: "101",
+                isWinner: true
               }
             ]
           },
@@ -293,6 +297,9 @@ const data = {
             scores: [
               {
                 mainScore: "103"
+              },
+              {
+                mainScore: "99"
               }
             ]
           },
@@ -337,6 +344,10 @@ const data = {
                 mainScore: "97",
                 isWinner: true
               },
+              {
+                mainScore: "96",
+                isWinner: true
+              }
             ]
           },
           {
@@ -345,6 +356,9 @@ const data = {
             scores: [
               {
                 mainScore: "83"
+              },
+              {
+                mainScore: "86"
               }
             ]
           },
@@ -389,6 +403,10 @@ const data = {
                 mainScore: "111",
                 isWinner: true
               },
+              {
+                mainScore: "104",
+                isWinner: true
+              }
             ]
           },
           {
@@ -397,6 +415,9 @@ const data = {
             scores: [
               {
                 mainScore: "104"
+              },
+              {
+                mainScore: "101"
               }
             ]
           },
