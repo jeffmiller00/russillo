@@ -206,6 +206,10 @@ const data = {
               {
                 mainScore: "94",
                 isWinner: true
+              },
+              {
+                mainScore: "124",
+                isWinner: true
               }
             ]
           },
@@ -213,9 +217,8 @@ const data = {
             // Pelicans
             contestantId: "1610612740",
             scores: [
-              {
-                mainScore: "92"
-              }
+              { mainScore: "92" },
+              { mainScore: "92" }
             ]
           },
 
@@ -332,15 +335,18 @@ const data = {
                 mainScore: "114",
                 isWinner: true
               },
+              { mainScore: "101" },
             ]
           },
           {
             // Heat
             contestantId: "1610612748",
             scores: [
+              { mainScore: "94" },
               {
-                mainScore: "94"
-              }
+                mainScore: "111",
+                isWinner: true
+              },
             ]
           },
 
