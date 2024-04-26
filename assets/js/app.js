@@ -23,7 +23,25 @@ const options = {
   },
   // getScoresHTML: (side, match) => { /* ...return an HTML string for side's scores */ },
   // getMatchTopHTML: (match) => { /* ...return an HTML string to be rendered above a match */ },
-  // getMatchBottomHTML: (match) => { /* ...return an HTML string to be rendered underneath a match */ },
+  getMatchBottomHTML: (match) => {
+    /* ...return an HTML string to be rendered underneath a match */
+    /*
+    if (match.matchStatus === undefined) {
+      return ``
+    } else {
+      // console.log(match)
+      if (match.matchWinner == "r") {
+        var who_won = "Russillo"
+        var bg_color = ryen_color
+      } else if (match.matchWinner == "c") {
+        var who_won = "Ceruti"
+        var bg_color = ceruti_color
+      }
+      return `<div style="background-color: ${bg_color};">${who_won} wins! ${match.matchStatus}</div>`
+    }
+    */
+    return ``
+  },
 
   mainVerticalPadding: 0,
   // verticalScrollMode: "mixed",
