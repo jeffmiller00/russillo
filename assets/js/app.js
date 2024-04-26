@@ -305,6 +305,10 @@ const data = {
               {
                 mainScore: "101",
                 isWinner: true
+              },
+              {
+                mainScore: "112",
+                isWinner: true
               }
             ]
           },
@@ -312,12 +316,9 @@ const data = {
             // Lakers
             contestantId: "1610612747",
             scores: [
-              {
-                mainScore: "103"
-              },
-              {
-                mainScore: "99"
-              }
+              { mainScore: "103" },
+              { mainScore: "99" },
+              { mainScore: "105" }
             ]
           },
 
@@ -367,19 +368,20 @@ const data = {
               {
                 mainScore: "96",
                 isWinner: true
-              }
+              },
+              { mainScore: "83" },
             ]
           },
           {
             // Magic
             contestantId: "1610612753",
             scores: [
+              { mainScore: "83" },
+              { mainScore: "86" },
               {
-                mainScore: "83"
+                mainScore: "121",
+                isWinner: true
               },
-              {
-                mainScore: "86"
-              }
             ]
           },
 
@@ -433,19 +435,20 @@ const data = {
               {
                 mainScore: "104",
                 isWinner: true
-              }
+              },
+              { mainScore: "114" },
             ]
           },
           {
             // 76ers
             contestantId: "1610612755",
             scores: [
+              { mainScore: "104" },
+              { mainScore: "101" },
               {
-                mainScore: "104"
+                mainScore: "125",
+                isWinner: true
               },
-              {
-                mainScore: "101"
-              }
             ]
           },
 
