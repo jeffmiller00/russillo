@@ -211,7 +211,8 @@ const data = {
                 mainScore: "124",
                 isWinner: true
               }
-            ]
+            ],
+            currentScore: "2"
           },
           {
             // Pelicans
@@ -219,7 +220,8 @@ const data = {
             scores: [
               { mainScore: "92" },
               { mainScore: "92" }
-            ]
+            ],
+            currentScore: "0"
           },
 
         ]
@@ -239,7 +241,8 @@ const data = {
               {
                 mainScore: "93"
               }
-            ]
+            ],
+            currentScore: "1"
           },
           {
             // Mavericks
@@ -252,7 +255,8 @@ const data = {
                 mainScore: "96",
                 isWinner: true
               }
-            ]
+            ],
+            currentScore: "1"
           },
 
         ]
@@ -273,19 +277,17 @@ const data = {
                 mainScore: "105",
                 isWinner: true
               }
-            ]
+            ],
+            currentScore: "2"
           },
           {
             // Suns
             contestantId: "1610612756",
             scores: [
-              {
-                mainScore: "95"
-              },
-              {
-                mainScore: "93"
-              }
-            ]
+              { mainScore: "95" },
+              { mainScore: "93" }
+            ],
+            currentScore: "0"
           },
 
         ]
@@ -310,7 +312,8 @@ const data = {
                 mainScore: "112",
                 isWinner: true
               }
-            ]
+            ],
+            currentScore: "3"
           },
           {
             // Lakers
@@ -319,7 +322,8 @@ const data = {
               { mainScore: "103" },
               { mainScore: "99" },
               { mainScore: "105" }
-            ]
+            ],
+            currentScore: "0"
           },
 
         ]
@@ -337,7 +341,8 @@ const data = {
                 isWinner: true
               },
               { mainScore: "101" },
-            ]
+            ],
+            currentScore: "1"
           },
           {
             // Heat
@@ -348,7 +353,8 @@ const data = {
                 mainScore: "111",
                 isWinner: true
               },
-            ]
+            ],
+            currentScore: "1"
           },
 
         ]
@@ -370,7 +376,8 @@ const data = {
                 isWinner: true
               },
               { mainScore: "83" },
-            ]
+            ],
+            currentScore: "2"
           },
           {
             // Magic
@@ -382,7 +389,8 @@ const data = {
                 mainScore: "121",
                 isWinner: true
               },
-            ]
+            ],
+            currentScore: "1"
           },
 
         ]
@@ -402,7 +410,8 @@ const data = {
               {
                 mainScore: "108"
               }
-            ]
+            ],
+            currentScore: "1"
           },
           {
             // Pacers
@@ -415,7 +424,8 @@ const data = {
                 mainScore: "125",
                 isWinner: true
               }
-            ]
+            ],
+            currentScore: "1"
           },
 
         ]
@@ -437,7 +447,8 @@ const data = {
                 isWinner: true
               },
               { mainScore: "114" },
-            ]
+            ],
+            currentScore: "2"
           },
           {
             // 76ers
@@ -449,7 +460,8 @@ const data = {
                 mainScore: "125",
                 isWinner: true
               },
-            ]
+            ],
+            currentScore: "1"
           },
 
         ]
