@@ -263,8 +263,12 @@ const data = {
               },
               { mainScore: "93" },
               { mainScore: "90" },
+              {
+                mainScore: "116",
+                isWinner: true
+              }
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
           {
             // Mavericks
@@ -278,7 +282,8 @@ const data = {
               {
                 mainScore: "101",
                 isWinner: true
-              }
+              },
+              { mainScore: "111" }
             ],
             currentScore: "2"
           },
@@ -290,7 +295,6 @@ const data = {
         order: 2,
         sides: [
           {
-            // Timberwolves
             contestantId: "1610612750",
             scores: [
               {
@@ -304,17 +308,21 @@ const data = {
               {
                 mainScore: "126",
                 isWinner: true
+              },
+              {
+                mainScore: "122",
+                isWinner: true
               }
             ],
-            currentScore: "3"
+            currentScore: "4"
           },
           {
-            // Suns
             contestantId: "1610612756",
             scores: [
               { mainScore: "95" },
               { mainScore: "93" },
               { mainScore: "109" },
+              { mainScore: "116" },
             ],
             currentScore: "0"
           },
@@ -454,6 +462,7 @@ const data = {
               },
               { mainScore: "108" },
               { mainScore: "118" },
+              { mainScore: "113" },
             ],
             currentScore: "1"
           },
@@ -470,8 +479,12 @@ const data = {
                 mainScore: "121",
                 isWinner: true
               },
+              {
+                mainScore: "126",
+                isWinner: true
+              },
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
 
         ]
@@ -493,8 +506,12 @@ const data = {
                 isWinner: true
               },
               { mainScore: "114" },
+              {
+                mainScore: "97",
+                isWinner: true
+              }
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
           {
             // 76ers
@@ -506,10 +523,25 @@ const data = {
                 mainScore: "125",
                 isWinner: true
               },
+              { mainScore: "92" },
             ],
             currentScore: "1"
           },
 
+        ]
+      }
+      ,
+      {
+        roundIndex: 3,
+        order: 1,
+        sides: [
+          {
+            // Timberwolves
+            contestantId: "1610612750",
+          },
+          {
+            contestantTitle: "",
+          },
         ]
       }
     ],
