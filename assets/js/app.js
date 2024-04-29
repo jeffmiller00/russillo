@@ -228,16 +228,21 @@ const data = {
               {
                 mainScore: "124",
                 isWinner: true
+              },
+              {
+                mainScore: "106",
+                isWinner: true
               }
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
           {
             // Pelicans
             contestantId: "1610612740",
             scores: [
               { mainScore: "92" },
-              { mainScore: "92" }
+              { mainScore: "92" },
+              { mainScore: "85" },
             ],
             currentScore: "0"
           },
@@ -335,7 +340,8 @@ const data = {
               {
                 mainScore: "112",
                 isWinner: true
-              }
+              },
+              { mainScore: "108" }
             ],
             currentScore: "3"
           },
@@ -345,9 +351,13 @@ const data = {
             scores: [
               { mainScore: "103" },
               { mainScore: "99" },
-              { mainScore: "105" }
+              { mainScore: "105" },
+              {
+                mainScore: "119",
+                isWinner: true
+              }
             ],
-            currentScore: "0"
+            currentScore: "1"
           },
 
         ]
@@ -365,8 +375,12 @@ const data = {
                 isWinner: true
               },
               { mainScore: "101" },
+              {
+                mainScore: "104",
+                isWinner: true
+              }
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
           {
             // Heat
@@ -377,6 +391,8 @@ const data = {
                 mainScore: "111",
                 isWinner: true
               },
+              { mainScore: "84" },
+
             ],
             currentScore: "1"
           },
@@ -400,6 +416,7 @@ const data = {
                 isWinner: true
               },
               { mainScore: "83" },
+              { mainScore: "89" },
             ],
             currentScore: "2"
           },
@@ -413,8 +430,12 @@ const data = {
                 mainScore: "121",
                 isWinner: true
               },
+              {
+                mainScore: "112",
+                isWinner: true
+              },
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
 
         ]
