@@ -256,9 +256,8 @@ const data = {
                 mainScore: "109",
                 isWinner: true
               },
-              {
-                mainScore: "93"
-              }
+              { mainScore: "93" },
+              { mainScore: "90" },
             ],
             currentScore: "1"
           },
@@ -266,15 +265,17 @@ const data = {
             // Mavericks
             contestantId: "1610612742",
             scores: [
-              {
-                mainScore: "97"
-              },
+              { mainScore: "97" },
               {
                 mainScore: "96",
                 isWinner: true
+              },
+              {
+                mainScore: "101",
+                isWinner: true
               }
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
 
         ]
@@ -294,16 +295,21 @@ const data = {
               {
                 mainScore: "105",
                 isWinner: true
+              },
+              {
+                mainScore: "126",
+                isWinner: true
               }
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
           {
             // Suns
             contestantId: "1610612756",
             scores: [
               { mainScore: "95" },
-              { mainScore: "93" }
+              { mainScore: "93" },
+              { mainScore: "109" },
             ],
             currentScore: "0"
           },
@@ -425,9 +431,8 @@ const data = {
                 mainScore: "109",
                 isWinner: true
               },
-              {
-                mainScore: "108"
-              }
+              { mainScore: "108" },
+              { mainScore: "118" },
             ],
             currentScore: "1"
           },
@@ -435,15 +440,17 @@ const data = {
             // Pacers
             contestantId: "1610612754",
             scores: [
-              {
-                mainScore: "94"
-              },
+              { mainScore: "94" },
               {
                 mainScore: "125",
                 isWinner: true
-              }
+              },
+              {
+                mainScore: "121",
+                isWinner: true
+              },
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
 
         ]
