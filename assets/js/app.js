@@ -218,7 +218,6 @@ const data = {
         order: 0,
         sides: [
           {
-            // OKC Thunder
             contestantId: "1610612760",
             scores: [
               {
@@ -232,17 +231,21 @@ const data = {
               {
                 mainScore: "106",
                 isWinner: true
+              },
+              {
+                mainScore: "97",
+                isWinner: true
               }
             ],
-            currentScore: "3"
+            currentScore: "4"
           },
           {
-            // Pelicans
             contestantId: "1610612740",
             scores: [
               { mainScore: "92" },
               { mainScore: "92" },
               { mainScore: "85" },
+              { mainScore: "89" },
             ],
             currentScore: "0"
           },
@@ -334,7 +337,6 @@ const data = {
         order: 3,
         sides: [
           {
-            // Nuggets
             contestantId: "1610612743",
             scores: [
               {
@@ -349,12 +351,15 @@ const data = {
                 mainScore: "112",
                 isWinner: true
               },
-              { mainScore: "108" }
+              { mainScore: "108" },
+              {
+                mainScore: "108",
+                isWinner: true
+              }
             ],
-            currentScore: "3"
+            currentScore: "4"
           },
           {
-            // Lakers
             contestantId: "1610612747",
             scores: [
               { mainScore: "103" },
@@ -363,7 +368,8 @@ const data = {
               {
                 mainScore: "119",
                 isWinner: true
-              }
+              },
+              { mainScore: "106" },
             ],
             currentScore: "1"
           },
@@ -386,9 +392,13 @@ const data = {
               {
                 mainScore: "104",
                 isWinner: true
+              },
+              {
+                mainScore: "102",
+                isWinner: true
               }
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
           {
             // Heat
@@ -400,6 +410,7 @@ const data = {
                 isWinner: true
               },
               { mainScore: "84" },
+              { mainScore: "88" },
 
             ],
             currentScore: "1"
@@ -529,8 +540,20 @@ const data = {
           },
 
         ]
-      }
-      ,
+      },
+      {
+        roundIndex: 3,
+        order: 0,
+        sides: [
+          {
+            // OKC Thunder
+            contestantId: "1610612760",
+          },
+          {
+            contestantTitle: ''
+          }
+        ]
+      },
       {
         roundIndex: 3,
         order: 1,
@@ -540,7 +563,8 @@ const data = {
             contestantId: "1610612750",
           },
           {
-            contestantTitle: "",
+            // Nuggets
+            contestantId: "1610612743",
           },
         ]
       }
