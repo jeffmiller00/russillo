@@ -216,37 +216,15 @@ const data = {
       {
         roundIndex: 2,
         order: 0,
+        matchStatus: "1 pt",
+        matchWinner: "r",
         sides: [
           {
             contestantId: "1610612760",
-            scores: [
-              {
-                mainScore: "94",
-                isWinner: true
-              },
-              {
-                mainScore: "124",
-                isWinner: true
-              },
-              {
-                mainScore: "106",
-                isWinner: true
-              },
-              {
-                mainScore: "97",
-                isWinner: true
-              }
-            ],
             currentScore: "4"
           },
           {
             contestantId: "1610612740",
-            scores: [
-              { mainScore: "92" },
-              { mainScore: "92" },
-              { mainScore: "85" },
-              { mainScore: "89" },
-            ],
             currentScore: "0"
           },
 
@@ -296,37 +274,15 @@ const data = {
       {
         roundIndex: 2,
         order: 2,
+        matchStatus: "1 pt",
+        matchWinner: "r",
         sides: [
           {
             contestantId: "1610612750",
-            scores: [
-              {
-                mainScore: "120",
-                isWinner: true
-              },
-              {
-                mainScore: "105",
-                isWinner: true
-              },
-              {
-                mainScore: "126",
-                isWinner: true
-              },
-              {
-                mainScore: "122",
-                isWinner: true
-              }
-            ],
             currentScore: "4"
           },
           {
             contestantId: "1610612756",
-            scores: [
-              { mainScore: "95" },
-              { mainScore: "93" },
-              { mainScore: "109" },
-              { mainScore: "116" },
-            ],
             currentScore: "0"
           },
 
@@ -335,42 +291,15 @@ const data = {
       {
         roundIndex: 2,
         order: 3,
+        matchStatus: "1 pt",
+        matchWinner: "c",
         sides: [
           {
             contestantId: "1610612743",
-            scores: [
-              {
-                mainScore: "114",
-                isWinner: true
-              },
-              {
-                mainScore: "101",
-                isWinner: true
-              },
-              {
-                mainScore: "112",
-                isWinner: true
-              },
-              { mainScore: "108" },
-              {
-                mainScore: "108",
-                isWinner: true
-              }
-            ],
             currentScore: "4"
           },
           {
             contestantId: "1610612747",
-            scores: [
-              { mainScore: "103" },
-              { mainScore: "99" },
-              { mainScore: "105" },
-              {
-                mainScore: "119",
-                isWinner: true
-              },
-              { mainScore: "106" },
-            ],
             currentScore: "1"
           },
 
