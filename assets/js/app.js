@@ -365,8 +365,12 @@ const data = {
               },
               { mainScore: "83" },
               { mainScore: "89" },
+              {
+                mainScore: "104",
+                isWinner: true
+              }
             ],
-            currentScore: "2"
+            currentScore: "3"
           },
           {
             // Magic
@@ -382,6 +386,7 @@ const data = {
                 mainScore: "112",
                 isWinner: true
               },
+              { mainScore: "103" },
             ],
             currentScore: "2"
           },
@@ -403,8 +408,12 @@ const data = {
               { mainScore: "108" },
               { mainScore: "118" },
               { mainScore: "113" },
+              {
+                mainScore: "115",
+                isWinner: true
+              }
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
           {
             // Pacers
@@ -423,6 +432,7 @@ const data = {
                 mainScore: "126",
                 isWinner: true
               },
+              { mainScore: "92" },
             ],
             currentScore: "3"
           },
@@ -449,7 +459,8 @@ const data = {
               {
                 mainScore: "97",
                 isWinner: true
-              }
+              },
+              { mainScore: "106" },
             ],
             currentScore: "3"
           },
@@ -464,8 +475,12 @@ const data = {
                 isWinner: true
               },
               { mainScore: "92" },
+              {
+                mainScore: "112",
+                isWinner: true
+              },
             ],
-            currentScore: "1"
+            currentScore: "2"
           },
 
         ]
