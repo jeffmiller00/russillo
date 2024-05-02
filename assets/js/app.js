@@ -195,7 +195,7 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
-            currentScore: "2",
+            currentScore: "3",
           },
 
         ]
@@ -239,14 +239,15 @@ const data = {
       {
         roundIndex: 2,
         order: 4,
+        matchStatus: "1 pt",
+        matchWinner: "r",
         sides: [
           {
-            // Celtics
             contestantId: "1610612738",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
           {
-            // Heat
             contestantId: "1610612748",
             currentScore: "1",
           },
@@ -328,6 +329,19 @@ const data = {
           {
             // Nuggets
             contestantId: "1610612743",
+          },
+        ]
+      },
+      {
+        roundIndex: 3,
+        order: 2,
+        sides: [
+          {
+            // Celtics
+            contestantId: "1610612738",
+          },
+          {
+            contestantTitle: "",
           },
         ]
       }
