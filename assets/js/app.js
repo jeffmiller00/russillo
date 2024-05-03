@@ -274,16 +274,17 @@ const data = {
       {
         roundIndex: 2,
         order: 6,
+        matchStatus: "4 pts",
+        matchWinner: "c",
         sides: [
           {
-            // Bucks
             contestantId: "1610612749",
             currentScore: "2",
           },
           {
-            // Pacers
             contestantId: "1610612754",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
 
         ]
@@ -291,14 +292,15 @@ const data = {
       {
         roundIndex: 2,
         order: 7,
+        matchStatus: "1 pt",
+        matchWinner: "c",
         sides: [
           {
-            // Knicks
             contestantId: "1610612752",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
           {
-            // 76ers
             contestantId: "1610612755",
             currentScore: "2",
           },
@@ -342,6 +344,20 @@ const data = {
           },
           {
             contestantTitle: "",
+          },
+        ]
+      },
+      {
+        roundIndex: 3,
+        order: 3,
+        sides: [
+          {
+            // Pacers
+            contestantId: "1610612754",
+          },
+          {
+            // Knicks
+            contestantId: "1610612752",
           },
         ]
       }
