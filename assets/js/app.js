@@ -186,16 +186,17 @@ const data = {
       {
         roundIndex: 2,
         order: 1,
+        matchStatus: "2 pts",
+        matchWinner: "c",
         sides: [
           {
-            // Clippers
             contestantId: "1610612746",
             currentScore: "2",
           },
           {
-            // Mavericks
             contestantId: "1610612742",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
 
         ]
@@ -266,7 +267,7 @@ const data = {
           {
             // Magic
             contestantId: "1610612753",
-            currentScore: "2",
+            currentScore: "3",
           },
 
         ]
@@ -316,7 +317,8 @@ const data = {
             contestantId: "1610612760",
           },
           {
-            contestantTitle: ''
+            // Mavericks
+            contestantId: "1610612742",
           }
         ]
       },
@@ -327,10 +329,12 @@ const data = {
           {
             // Timberwolves
             contestantId: "1610612750",
+            currentScore: "1",
           },
           {
             // Nuggets
             contestantId: "1610612743",
+            currentScore: "0",
           },
         ]
       },
