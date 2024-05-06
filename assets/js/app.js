@@ -258,11 +258,14 @@ const data = {
       {
         roundIndex: 2,
         order: 5,
+        matchStatus: "1 pt",
+        matchWinner: "r",
         sides: [
           {
             // Cavs
             contestantId: "1610612739",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
           {
             // Magic
@@ -315,10 +318,12 @@ const data = {
           {
             // OKC Thunder
             contestantId: "1610612760",
+            currentScore: "0",
           },
           {
             // Mavericks
             contestantId: "1610612742",
+            currentScore: "0",
           }
         ]
       },
@@ -345,9 +350,12 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
+            currentScore: "0",
           },
           {
-            contestantTitle: "",
+            // Cavs
+            contestantId: "1610612739",
+            currentScore: "0",
           },
         ]
       },
@@ -358,10 +366,12 @@ const data = {
           {
             // Pacers
             contestantId: "1610612754",
+            currentScore: "0",
           },
           {
             // Knicks
             contestantId: "1610612752",
+            currentScore: "0",
           },
         ]
       }
@@ -581,7 +591,7 @@ const adjust = () => {
     bracket.applyNewOptions(some_default_options)
   }
 }
-bracket.setBaseRoundIndex(2)
+bracket.setBaseRoundIndex(3)
 mediaQuery.addEventListener('change', adjust)
 
 adjust()
