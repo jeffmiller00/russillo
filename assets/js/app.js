@@ -334,7 +334,7 @@ const data = {
           {
             // Timberwolves
             contestantId: "1610612750",
-            currentScore: "1",
+            currentScore: "2",
           },
           {
             // Nuggets
@@ -371,7 +371,7 @@ const data = {
           {
             // Knicks
             contestantId: "1610612752",
-            currentScore: "0",
+            currentScore: "1",
           },
         ]
       }
