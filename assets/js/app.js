@@ -318,7 +318,7 @@ const data = {
           {
             // OKC Thunder
             contestantId: "1610612760",
-            currentScore: "0",
+            currentScore: "1",
           },
           {
             // Mavericks
@@ -350,7 +350,7 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
-            currentScore: "0",
+            currentScore: "1",
           },
           {
             // Cavs
