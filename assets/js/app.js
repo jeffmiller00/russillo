@@ -371,7 +371,7 @@ const data = {
           {
             // Knicks
             contestantId: "1610612752",
-            currentScore: "1",
+            currentScore: "2",
           },
         ]
       }
