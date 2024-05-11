@@ -339,7 +339,7 @@ const data = {
           {
             // Nuggets
             contestantId: "1610612743",
-            currentScore: "0",
+            currentScore: "1",
           },
         ]
       },
@@ -366,7 +366,7 @@ const data = {
           {
             // Pacers
             contestantId: "1610612754",
-            currentScore: "0",
+            currentScore: "1",
           },
           {
             // Knicks
