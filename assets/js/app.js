@@ -323,7 +323,7 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
-            currentScore: "1",
+            currentScore: "2",
           }
         ]
       },
@@ -350,7 +350,7 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
-            currentScore: "1",
+            currentScore: "2",
           },
           {
             // Cavs
