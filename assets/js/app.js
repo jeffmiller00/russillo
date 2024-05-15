@@ -339,7 +339,7 @@ const data = {
           {
             // Nuggets
             contestantId: "1610612743",
-            currentScore: "2",
+            currentScore: "3",
           },
         ]
       },
@@ -371,7 +371,7 @@ const data = {
           {
             // Knicks
             contestantId: "1610612752",
-            currentScore: "2",
+            currentScore: "3",
           },
         ]
       }
