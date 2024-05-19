@@ -314,16 +314,17 @@ const data = {
       {
         roundIndex: 3,
         order: 0,
+        matchStatus: "6 pts",
+        matchWinner: "c",
         sides: [
           {
-            // OKC Thunder
             contestantId: "1610612760",
             currentScore: "2",
           },
           {
-            // Mavericks
             contestantId: "1610612742",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           }
         ]
       },
@@ -334,7 +335,7 @@ const data = {
           {
             // Timberwolves
             contestantId: "1610612750",
-            currentScore: "2",
+            currentScore: "3",
           },
           {
             // Nuggets
@@ -367,12 +368,25 @@ const data = {
           {
             // Pacers
             contestantId: "1610612754",
-            currentScore: "2",
+            currentScore: "3",
           },
           {
             // Knicks
             contestantId: "1610612752",
             currentScore: "3",
+          },
+        ]
+      },
+      {
+        roundIndex: 4,
+        order: 0,
+        sides: [
+          {
+            // Mavericks
+            contestantId: "1610612742",
+          },
+          {
+            contestantTitle: "",
           },
         ]
       },
