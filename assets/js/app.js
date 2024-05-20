@@ -331,14 +331,15 @@ const data = {
       {
         roundIndex: 3,
         order: 1,
+        matchStatus: "3 pts",
+        matchWinner: "r",
         sides: [
           {
-            // Timberwolves
             contestantId: "1610612750",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
           {
-            // Nuggets
             contestantId: "1610612743",
             currentScore: "3",
           },
@@ -364,14 +365,15 @@ const data = {
       {
         roundIndex: 3,
         order: 3,
+        matchStatus: "6 pts",
+        matchWinner: "c",
         sides: [
           {
-            // Pacers
             contestantId: "1610612754",
-            currentScore: "3",
+            currentScore: "4",
+            isWinner: true
           },
           {
-            // Knicks
             contestantId: "1610612752",
             currentScore: "3",
           },
@@ -386,7 +388,8 @@ const data = {
             contestantId: "1610612742",
           },
           {
-            contestantTitle: "",
+            // Timberwolves
+            contestantId: "1610612750",
           },
         ]
       },
@@ -399,7 +402,8 @@ const data = {
             contestantId: "1610612738",
           },
           {
-            contestantTitle: "",
+            // Pacers
+            contestantId: "1610612754",
           },
         ]
       },
