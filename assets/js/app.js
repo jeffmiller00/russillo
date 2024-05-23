@@ -386,10 +386,12 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
+            currentScore: "1",
           },
           {
             // Timberwolves
             contestantId: "1610612750",
+            currentScore: "0",
           },
         ]
       },
@@ -400,10 +402,12 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
+            currentScore: "1",
           },
           {
             // Pacers
             contestantId: "1610612754",
+            currentScore: "0",
           },
         ]
       },
