@@ -903,3 +903,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #2c2c2c;
     padding: 0.5em;
 }
+
+.muted {
+    font-size: 1.0rem;
+    font-style: italic;
+}

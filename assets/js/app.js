@@ -627,7 +627,7 @@ const adjust = () => {
     bracket.applyNewOptions(some_default_options)
   }
 }
-bracket.setBaseRoundIndex(3)
+bracket.setBaseRoundIndex(4)
 mediaQuery.addEventListener('change', adjust)
 
 adjust()
