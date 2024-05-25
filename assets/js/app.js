@@ -386,7 +386,7 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
-            currentScore: "1",
+            currentScore: "2",
           },
           {
             // Timberwolves
