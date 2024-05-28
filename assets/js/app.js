@@ -386,7 +386,7 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
-            currentScore: "2",
+            currentScore: "3",
           },
           {
             // Timberwolves
@@ -398,11 +398,14 @@ const data = {
       {
         roundIndex: 4,
         order: 1,
+        matchStatus: "3 pts",
+        matchWinner: "r",
         sides: [
           {
             // Celtics
             contestantId: "1610612738",
-            currentScore: "2",
+            currentScore: "4",
+            isWinner: true
           },
           {
             // Pacers
