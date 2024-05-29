@@ -391,7 +391,7 @@ const data = {
           {
             // Timberwolves
             contestantId: "1610612750",
-            currentScore: "0",
+            currentScore: "1",
           },
         ]
       },
@@ -402,14 +402,27 @@ const data = {
         matchWinner: "r",
         sides: [
           {
-            // Celtics
             contestantId: "1610612738",
             currentScore: "4",
             isWinner: true
           },
           {
-            // Pacers
             contestantId: "1610612754",
+            currentScore: "0",
+          },
+        ]
+      },
+      {
+        roundIndex: 5,
+        order: 0,
+        sides: [
+          {
+            // Celtics
+            contestantId: "1610612738",
+            currentScore: "0",
+          },
+          {
+            contestantTitle: "",
             currentScore: "0",
           },
         ]
