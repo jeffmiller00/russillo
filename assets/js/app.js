@@ -425,7 +425,7 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
-            currentScore: "1",
+            currentScore: "2",
           },
         ]
       },
