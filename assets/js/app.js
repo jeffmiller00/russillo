@@ -262,13 +262,11 @@ const data = {
         matchWinner: "r",
         sides: [
           {
-            // Cavs
             contestantId: "1610612739",
             currentScore: "4",
             isWinner: true
           },
           {
-            // Magic
             contestantId: "1610612753",
             currentScore: "3",
           },
@@ -425,7 +423,7 @@ const data = {
           {
             // Celtics
             contestantId: "1610612738",
-            currentScore: "2",
+            currentScore: "3",
           },
         ]
       },
