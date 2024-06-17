@@ -418,7 +418,7 @@ const data = {
           {
             // Mavericks
             contestantId: "1610612742",
-            currentScore: "0",
+            currentScore: "1",
           },
           {
             // Celtics
